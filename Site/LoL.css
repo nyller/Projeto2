@@ -1,0 +1,271 @@
+body { /*fundo*/
+	background: url(Fundo1.jpg) center center no-repeat fixed; 
+ 	-webkit- background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;}
+#bot1 { /*Botão aba diferente*/
+	width: 120px;
+	height: 25px;
+	opacity: 0.5;
+	background-color: gold;
+	border-color: gray;
+	border-style: ridge;
+	font-family: 'Comfortaa';
+
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 10px;}
+#bot1:hover {
+	animation: a1 0.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;}
+#bot2 { /*Botão aba igual*/
+	width: 120px;
+	height: 25px;
+	opacity: 0.5;
+	background-color: white;
+	border-color: gray;
+	border-style: ridge;
+	font-style: italic;
+	font-family: 'Comfortaa';
+
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 10px;}
+#bot2:hover {
+	animation: a1 0.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;}
+@keyframes a1 {
+	from{
+		width: 120px;
+		height: 25px;
+		opacity: 0.5;
+	}
+	to{
+		width: 150px;
+		height: 30px;
+		opacity: 1;
+	}}
+#bot3{ /*Botão Regiões*/
+	border: ridge;
+	width: 10%;
+	align-self: center;
+
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;}
+#bot4{ /*Botão Regiões*/
+	border: double;
+	width: 20%;
+	align-self: center;
+
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;}
+#bot4{
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;}
+#img{ /*Imagem LoL fixa*/
+	width: 90%;
+	animation: a2 1s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;}
+@keyframes a2 {
+	from{
+		width: 90%
+		opacity: 1;
+	}
+	to{
+		width: 50%;
+		opacity: 0.5;
+	}}
+#img:hover {
+	animation: a3 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;}
+@keyframes a3 {
+	from{
+		width: 50%;
+		opacity: 0.5;
+	}
+	to{
+		width: 90%
+		opacity: 1;
+	}}
+#img1{ /*Imagem LoL fixa*/
+	width: 50%;
+	animation: a5 1s;
+	animation-delay: 0.5s;
+	animation-fill-mode: forwards;}
+@keyframes a5 {
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0.5;
+	}}
+#img1:hover {
+	animation: a6 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;}
+@keyframes a6 {
+	from{
+		opacity: 0.5;
+	}
+	to{
+		opacity: 1;
+	}}
+#img2{ /*Imagens de Regiões exemplo*/
+	width: 25%;
+	opacity: 0.5;}
+#img2:hover {
+	animation: a4 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;}
+#img3{ /*Imagens de Rito*/
+	width: 60px;}
+#img4{ /*Imagens de Regiões exemplo*/
+	width: 73%;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;}
+#img5{ /*Imagens de Regiões*/
+	width: 100%;}
+#tabP1 { /*Tabela de Texto Branca*/
+	background-color: white;
+	opacity: 0.75;
+	width: 80%;
+	border-style: double;
+
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;}
+#tabP2 { /*Tabela de Texto Preta*/
+	background-color: black;
+	opacity: 0.80;
+	width: 50%;
+	border-style: ridge;
+
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;}
+#tabP3 { /*Tabela de Texto Preta tamanha diferendte*/
+	background-color: black;
+	opacity: 0.75;
+	width: 60%;
+	border-style: ridge;
+
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;}
+#p1 { /*Texto Preto*/
+	color: black;
+	font-size: 25px;
+	width: 75%;
+	opacity: 1;
+	font-family: 'Comfortaa';
+	text-indent: 40px;}
+#p2 { /*Texto Branco*/
+	color: white;
+	font-size: 15px;
+	width: 75%;
+	opacity: 1;
+	font-family: 'Comfortaa';
+	text-indent: 40px;}
+#p3 {
+	color: white;
+	font-size: 20px;
+	width: 80%;
+	opacity: 1;
+	font-family: 'Comfortaa';
+	text-indent: 40px;}
+#p4 {
+	font-family: 'Comfortaa';
+	text-indent: 40px;
+	text-align: center;
+
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;}
+#div1 { /*Div Inicio*/
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	width: 3%;
+	height: 5%;
+	opacity: 0.5}
+#div1:hover {
+	animation: a4 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;}
+#div2 { /*Div Cadastro*/
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	width: 4%;
+	height: 7%;
+	opacity: 0.5}
+#div2:hover {
+	animation: a4 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;}
+#div3 { /*Div Duvida*/
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 4%;
+	height: 7%;
+	opacity: 0.5}
+#div3:hover {
+	animation: a4 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;}
+#div4 { /*Div Subir*/
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	width: 4%;
+	height: 7%;
+	opacity: 0.5}
+#div4:hover {
+	animation: a4 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;}
+@keyframes a4{
+	from{
+		opacity: 0.5;
+	}
+	to{
+		opacity: 1;
+	}}
+@media print {  
+   	#div1{display: none;}
+   	#div2{display: none;}
+	#div3{display: none;}
+	#div4{display: none;}
+	#bot1{display: none;}
+	#bot2{display: none;}
+	#bot3{display: none;}
+	#bot4{display: none;}
+	#img1{display: none;}
+	#img2{display: none;}
+	#img3{display: none;}
+	#img4{display: none;}
+	#img5{display: none;}
+	#p1{font-size: 21px;}
+}
